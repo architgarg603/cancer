@@ -1,0 +1,142 @@
+.wrapper {
+    height: calc(100vh - 70px);
+    margin-top: 70px;
+    width: 100%;
+    overflow: auto;
+    padding: 0 100px;
+
+    .head {
+        font-size: xx-large;
+        font-weight: bolder;
+        margin-bottom: 5px;
+    }
+
+    hr {
+        color: red;
+        width: 40px;
+        background-color: rgb(255, 0, 0);
+        margin: 20px 0;
+        border: 1px solid red;
+        height: 2px;
+    }
+    .subHead {
+        font-weight: bolder;
+        position: relative;
+    }
+
+    label {
+        font-weight: bold;
+        margin-top: 50px;
+
+        input {
+            height: 50px;
+            width: 50px;
+            outline: none;
+            border: 2px solid gainsboro;
+            border-radius: 10px;
+            margin-left: 30px;
+        }
+    }
+
+    .breasts {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .b {
+            height: 350px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin: 25px;
+
+            .c {
+                height: 300px;
+                width: 300px;
+                background-position: top center;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            input {
+                height: 30px;
+                width: 30px;
+            }
+
+            .c1 {
+                background-image: url("../Assets/test/b1.png");
+            }
+            .c2 {
+                background-image: url("../Assets/test/b2.png");
+            }
+            .c3 {
+                background-image: url("../Assets/test/b3.png");
+            }
+
+            .c4 {
+                background-image: url("../Assets/test/b4.png");
+            }
+            .c5 {
+                background-image: url("../Assets/test/b5.png");
+            }
+            .c6 {
+                background-image: url("../Assets/test/b6.png");
+            }
+        }
+    }
+
+    .Head {
+        font-size: x-large;
+        font-weight: bolder;
+        color: #fdb860;
+        margin-bottom: 50px;
+    }
+
+    .inputs {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        flex-wrap: wrap;
+
+        label {
+            font-size: large;
+            font-weight: bold;
+            min-width: 50%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 60px;
+
+            input{
+                width: 200px;
+                height: 50px;
+                outline: none;
+                border: 2px solid black;
+                border-radius: 15px;
+            }
+        }
+    }
+
+    .submit{
+        height: 50px;
+        width: 150px;
+        color: white;
+        cursor: pointer;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #552F89;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .footer{
+        margin-top: 40px;
+        width: calc(100% + 200px);
+        left: -100px;
+        height: 70px;
+        background-color: #FF5367;
+        position: relative;
+        z-index: 5;
+    }
+}
